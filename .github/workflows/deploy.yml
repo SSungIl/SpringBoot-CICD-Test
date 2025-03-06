@@ -5,10 +5,10 @@ on:
       -main
 
 jobs:
-  my-Deploy-job:
+  My-Deploy-job:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Hellow World
-      run: echo "Hellow World"
+      - name: Hellow World
+        run: echo "Hellow World"
 
