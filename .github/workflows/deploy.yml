@@ -11,10 +11,3 @@ jobs:
     steps:
       - name: Hellow World 찍기
         run: echo "Hellow World"
-
-    steps:
-      - name: Hellow World 찍기2
-        run: |
-          echo "Hood"
-          echo "Hii"
-
