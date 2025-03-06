@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Hellow World 2
-        run: echo "Hellow World2"
+      - name: Github Actions Secret 사용
+        run: echo ${{ secrets.SECRETVAR}}
