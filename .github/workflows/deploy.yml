@@ -1,4 +1,4 @@
-name: gitHub Actions 실행하기2
+name: gitHub Actions 실행하기3
 on:
   push:
     branches:
@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Hellow World 찍기
-        run: echo "Hellow World"
+        run: echo "Hellow World2"
